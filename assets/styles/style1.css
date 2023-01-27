@@ -1,0 +1,100 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family:"Comic Sans MS";
+
+}
+
+
+img{
+    max-width: 100%;
+}
+
+.logo{
+    width: 125px;
+    float: right;
+    position: relative;
+    top: -40px;
+    right: 10%;
+}
+
+.titulo{
+    font-size: 35px;
+/*     font-family:"Comic Sans MS"; */
+    -webkit-text-stroke:#fff .9px;
+}
+
+header > div {
+    padding: 50px;
+}
+
+
+.banner{
+    background-image: url(../images/design1_image2.jpg);
+    height: 150px;
+    /* width: 95%; */
+    padding: 0px 30px;
+}
+
+.encabezado{
+    color:white;
+    background-color: black;
+    height: 50px;
+    /* width: 95%; */
+    padding: 0px 30px;
+    /* align-self: center;
+    align-content: center;*/
+    text-align-last: center;
+    padding: 12px;
+    
+}
+
+main {
+    margin:0px;
+    padding: 0 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+/*     width: 60%;
+ */}
+
+li a {
+    padding: 10% 0;
+    display: inline-block;
+    /* color:cornflowerblue; */
+    color:steelblue;
+}
+
+#elementoMenuActual{
+    text-decoration: none;
+    text-decoration: solid;
+    color: black;
+} 
+
+main > div{
+    padding: 0;
+    width: 95%;
+    display: inline-block;
+}
+
+main > nav {
+    vertical-align:top;
+    width: 20%;
+    display: inline-block;
+}
+main > section {
+    width: 60%;
+    align-content: left;
+    display: inline-block;
+}
+
+main > div {
+    width: 60%;
+    align-content: left;
+    display: inline-block;
+}
