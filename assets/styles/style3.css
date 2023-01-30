@@ -11,7 +11,6 @@ img{
 
 header {
     padding: 15% 10% 2% 10%;
-    /* position: relative; */
 }
 
 
@@ -19,25 +18,26 @@ header {
     background-image: url(../images/design1_image1.jpg);
     background-size: cover;
     position: relative;
-    /* margin: 0 0 0.5% 0; */
-    padding: 15% 10%;
-    /* width: 70%; */
+    padding: 8% 10%;
 
 }
 
 .titulo{
+    color: white;
     font-size: 45px;
-    /* -webkit-text-stroke:#fff .9px; */
     position: absolute;
-    top: -35%;
-    left: 1%;
+    display: block;
+    width: 100%;
+    top: -32%;
+    left: 0%;
+    background-color: black;
 }
 
 .logo{
-    width: 140px;
+    width: 13%;
     position: absolute;
-    top: 10%;
-    left: 190;
+    top: 6%;
+    left: 1%;
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.6);
     border: 2px solid black;
@@ -57,21 +57,19 @@ main {
     margin:0px;
     padding: 0 10%;
     position: relative;
+
 }
 
 .menu {
     position: absolute;
-    /* vertical-align:top; */
     width: 45%;
     height: 3px;
-    /* height: 0%; */
     display: inline-block;
     padding: 0 15% 0 0;
-    Top: -10%;
+    Top: -28%;
     Left: 74%;
     z-index: 1;
     display: block;
-    background-color: aliceblue;
 }
 
 .elementoMenu {
@@ -79,28 +77,25 @@ main {
     margin: 0 2% 0 0;
     display: inline-block;
     color: white;
-    background-color:rgb(28, 105, 168);;
+    background-color:rgb(45, 45, 46);;
     text-decoration: none;
     border: 2px solid black;
-    box-shadow: 5px 5px 5px gray;
-    /* z-index: 1; */
+
 }
 
 #elementoMenuActual{
     text-decoration: solid;
     color: white;
-    background-color: rgb(70, 148, 70);
+    background-color: rgb(18, 19, 18);
+    border: 2px solid rgb(73, 68, 68);
+
 } 
 
 .panelInfo{
     padding: 0 15% 0 0;
-    /* width: 60%;
-    align-content: left; */
     position: absolute;
     top: 10%;
-    left: 25%;
-    /* display: inline-block; */
-
+    left: 15%;
 }
 
 p{
