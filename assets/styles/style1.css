@@ -4,97 +4,96 @@
     margin: 0;
     box-sizing:border-box;
     font-family:"Comic Sans MS";
-
 }
-
 
 img{
     max-width: 100%;
 }
 
-.logo{
-    width: 125px;
-    float: right;
-    position: relative;
-    top: -40px;
-    right: 10%;
+header {
+    padding: 7% 10% 2% 10%;
 }
-
-.titulo{
-    font-size: 35px;
-/*     font-family:"Comic Sans MS"; */
-    -webkit-text-stroke:#fff .9px;
-}
-
-header > div {
-    padding: 50px;
-}
-
 
 .banner{
     background-image: url(../images/design1_image2.jpg);
-    height: 150px;
-    /* width: 95%; */
-    padding: 0px 30px;
+    background-size: cover;
+    position: relative;
+    margin: 0 0 0.5% 0;
+    padding: 9% 0;
 }
 
-.encabezado{
-    color:white;
-    background-color: black;
-    height: 50px;
-    /* width: 95%; */
-    padding: 0px 30px;
-    /* align-self: center;
-    align-content: center;*/
-    text-align-last: center;
-    padding: 12px;
-    
+.titulo{
+    font-size: 45px;
+    -webkit-text-stroke:#fff .9px;
+    position: absolute;
+    top: 1%;
+    left: 1%;
 }
 
-main {
-    margin:0px;
-    padding: 0 50px;
+.logo{
+    width: 140px;
+    position: absolute;
+    top: 65%;
+    right: 10%;
+    z-index: 1;
 }
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-/*     width: 60%;
- */}
-
-li a {
-    padding: 10% 0;
+.menu {
+    position: absolute;
+    Top: 140%;
+    /* Left: 5%; */
+    vertical-align:top;
+    width: 25%;
     display: inline-block;
-    /* color:cornflowerblue; */
-    color:steelblue;
+    padding: 0 5% 0 0;
+}
+
+.elementoMenu {
+    padding: 0 0 35% 0;
+    display: block;
+    color:rgb(65, 131, 185);
 }
 
 #elementoMenuActual{
-    text-decoration: none;
     text-decoration: solid;
     color: black;
 } 
 
-main > div{
-    padding: 0;
-    width: 95%;
-    display: inline-block;
+.encabezado{
+    color:white;
+    background-color: black;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.4% 0;
+} 
+
+main {
+    margin:0px;
+    padding: 0 10%;
+    position: relative;
 }
 
-main > nav {
-    vertical-align:top;
-    width: 20%;
-    display: inline-block;
-}
-main > section {
-    width: 60%;
-    align-content: left;
-    display: inline-block;
+.panelInfo {
+    padding: 0 20% 0 0;
+    /* width: 60%;
+    align-content: left; */
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    /* display: inline-block; */
 }
 
-main > div {
-    width: 60%;
-    align-content: left;
-    display: inline-block;
+p{
+    padding: 0 0 3% 0;
+    /* position: absolute; */
+    
+}
+
+p.parrafoSangrado {
+    text-indent: 40px;
+    text-align: justify;
+}
+
+a.email {
+    color:rgb(65, 131, 185);
 }

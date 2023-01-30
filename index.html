@@ -7,48 +7,50 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mighty Ducks Hokey League Web Page</title>
         <link rel="shortcut icon" href="./assets/images/Logo_Mighty_ducks-01.png" type="image/x-icon">
-        <link rel="stylesheet" href="/assets/styles/style1.css">
+        <!-- <link rel="stylesheet" href="/assets/styles/style1.css"> -->
+        <!-- <link rel="stylesheet" href="/assets/styles/style2.css"> -->
+        <link rel="stylesheet" href="/assets/styles/style3.css">
     </head>
+
     <body>
         <header>
             <div>
-                <section class="banner">
-            
+                <div class="banner">
                     <h1 class="titulo">Mighty Ducks Hokey League</h1>
-            
-                </section>
-
-                <figure class="logo">
-                    <img src="./assets/images/Logo_Mighty_ducks-01.png" alt="Logo" width="150" height="150">
-                </figure>
-
-
-                <section class="encabezado">
-
+                    <figure class="logo">
+                        <img src="./assets/images/Logo_Mighty_ducks-01.png" alt="Logo" width="150" height="150">
+                    </figure>
+                    <nav class="menu">
+                        <a class="elementoMenu" href="./" id="elementoMenuActual">Home</a>
+                        <a class="elementoMenu" href="./about.html">About MDHL</a>
+                        <a class="elementoMenu" href="./contact.html">Contact</a>
+                    </nav>
+                </div>
+                <div class="encabezado">
                     <h2>Upcoming Events</h2>
-                    
-                </section>
+                </div>
             </div>
-
         </header>
 
         <main>
 
-            <nav>
-                    <ul>
-                        <li><a id="elementoMenuActual" href="./">Home</a></li>
-                        <li><a href="./about.html">About MDHL</a></li>
-                        <li><a href="./contact.html">Contact</a></li>
-                    </ul>
-            </nav>
-            <section>
-                <h3><i>August 4</i></h3>
-                <p>&emsp;MDSL Fundraiser</p>
-                <h3><i>August 16</i></h3>
-                <p>&emsp;Season Kick-off: Meet the Teams</p>
-                <h3><i>September 1</i></h3>
-                <p>&emsp;First Game of the Season (Check Game Schedule for details)</p>
-            </section>
+            <div class="panelInfo">
+                <article>
+                    <h3><i>August 4</i></h3>
+                    <p class="parrafoSangrado">MDSL Fundraiser</p>
+                </article>
+
+                <article>
+                    <h3><i>August 16</i></h3>
+                    <p class="parrafoSangrado">Season Kick-off: Meet the Teams</p>
+                </article>
+
+                <article>
+                    <h3><i>September 1</i></h3>
+                    <p class="parrafoSangrado">First Game of the Season (Check Game Schedule for details)</p>
+                </article>
+            </div>
+            <!-- </section> -->
         
         </main>
 

@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: 'Times New Roman';
+}
+
+img{
+    max-width: 100%;
+}
+
+header {
+    padding: 15% 10% 2% 10%;
+    /* position: relative; */
+}
+
+
+.banner{
+    background-image: url(../images/design1_image1.jpg);
+    background-size: cover;
+    position: relative;
+    /* margin: 0 0 0.5% 0; */
+    padding: 15% 10%;
+    /* width: 70%; */
+
+}
+
+.titulo{
+    font-size: 45px;
+    /* -webkit-text-stroke:#fff .9px; */
+    position: absolute;
+    top: -35%;
+    left: 1%;
+}
+
+.logo{
+    width: 140px;
+    position: absolute;
+    top: 10%;
+    left: 190;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 2px solid black;
+}
+
+.encabezado{
+    color:black;
+    background-color: white;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.4% 0;
+    border: 2px solid black;
+}
+
+main {
+    margin:0px;
+    padding: 0 10%;
+    position: relative;
+}
+
+.menu {
+    position: absolute;
+    /* vertical-align:top; */
+    width: 45%;
+    height: 3px;
+    /* height: 0%; */
+    display: inline-block;
+    padding: 0 15% 0 0;
+    Top: -10%;
+    Left: 74%;
+    z-index: 1;
+    display: block;
+    background-color: aliceblue;
+}
+
+.elementoMenu {
+    padding: 2%;
+    margin: 0 2% 0 0;
+    display: inline-block;
+    color: white;
+    background-color:rgb(28, 105, 168);;
+    text-decoration: none;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px gray;
+    /* z-index: 1; */
+}
+
+#elementoMenuActual{
+    text-decoration: solid;
+    color: white;
+    background-color: rgb(70, 148, 70);
+} 
+
+.panelInfo{
+    padding: 0 15% 0 0;
+    /* width: 60%;
+    align-content: left; */
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    /* display: inline-block; */
+
+}
+
+p{
+    padding: 0 0 3% 0;    
+}
+
+p.parrafoSangrado {
+    text-indent: 40px;
+    text-align: justify;
+
+}
+
+a.email {
+    color:rgb(65, 131, 185);
+}
