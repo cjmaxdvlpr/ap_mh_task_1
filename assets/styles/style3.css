@@ -31,6 +31,8 @@ header {
     width: 100%;
     top: -32%;
     left: 0%;
+    padding-left: 5px;
+    padding-bottom: 5px;
     background-color: black;
 }
 
@@ -43,6 +45,7 @@ header {
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.6);
     border: 2px solid black;
+    padding-top: 5px;
 }
 
 .encabezado{
@@ -160,4 +163,30 @@ a.email{
 .listAllPlay{
     list-style-type: circle;
     padding: 0 0 0 8%;
+}
+
+
+.scheduleTitle{
+    padding: 0 0 2% 0;
+}
+
+.tablaSchedule{
+    padding: 8% 0;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+.tablaSchedule td{
+    padding: 1% 0;
+}
+
+
+.divGameContact p{
+    padding: 4% 0 0 0;
+}
+
+.tablaContacto{
+    width: 130%;
+    text-align: left;
+    vertical-align: middle;
 }
