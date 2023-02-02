@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
     font-family: 'Times New Roman';
 }
 
@@ -10,7 +10,7 @@ img{
 }
 
 header {
-    padding: 10% 10% 2% 10%;
+    padding: 7% 2% 2% 2%;
 }
 
 
@@ -19,7 +19,7 @@ header {
     background-size: cover;
     position: relative;
     width: auto;
-    padding: 8% 10%;
+    padding: 7% 10%;
 
 }
 
@@ -31,6 +31,7 @@ header {
     width: 100%;
     top: -32%;
     left: 0%;
+    /* padding: 5px; */
     padding-left: 5px;
     padding-bottom: 5px;
     background-color: black;
@@ -61,15 +62,19 @@ header {
 body{
     display:flex; 
     flex-direction: column; 
-    justify-content:center;
+    justify-content: center;
     /* min-height:100vh; */
 }
 
 
 main{
     margin:0px;
-    padding: 0 10%;
+    padding: 2% 2% 7% 2%;
+    /* padding: 0 10%; */
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
 
 }
 
@@ -78,27 +83,26 @@ main{
     width: 60%;
     display: inline-block;
     padding: 0 15% 0 0;
-    Top: -28%;
+    Top: -27%;
     Left: 55%;
-    /* z-index: 1; */
-    /* display: block; */
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    align-items: center;
 }
 
 .elementoMenu{
     height: 37px;
     padding: 2%;
-    margin: 0 2% 0 0;
-    /* display: inline-block; */
     color: white;
     background-color:rgb(45, 45, 46);;
     text-decoration: none;
     border: 2px solid black;
-
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
 }
 
 #elementoMenuActual{
@@ -109,11 +113,14 @@ main{
 } 
 
 .panelInfo{
-    padding: 0 15% 14% 0;
+    /* padding: 0 15% 14% 0; */
+    padding-bottom: 5%;
     position: absolute;
-    top: 10%;
-    left: 15%;
+    /* top: 10%;
+    left: 15%; */
+    width: 80%;
 }
+
 
 p{
     padding: 0 0 3% 0;    
@@ -122,10 +129,11 @@ p{
 p.parrafoSangrado{
     text-indent: 40px;
     text-align: justify;
-
 }
 
 .parrafoSangrado2{
+    text-indent: 40px;
+    text-align: justify;
     padding: 0;
 }
 
@@ -142,6 +150,8 @@ a.email{
 #rulesIHFFieldRegulationsList{
     list-style-type: decimal;
     list-style-position: inside;
+    text-align: justify;
+
 }
 
 #rulesIHFFieldRegulationsList li{
