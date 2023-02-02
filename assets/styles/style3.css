@@ -10,7 +10,7 @@ img{
 }
 
 header {
-    padding: 0 10% 2% 10%;
+    padding: 10% 10% 2% 10%;
 }
 
 
@@ -18,7 +18,6 @@ header {
     background-image: url(../images/design1_image1.jpg);
     background-size: cover;
     position: relative;
-    height: 12hv;
     width: auto;
     padding: 8% 10%;
 
@@ -60,7 +59,7 @@ body{
     display:flex; 
     flex-direction: column; 
     justify-content:center;
-    min-height:100vh;
+    /* min-height:100vh; */
 }
 
 
@@ -107,8 +106,8 @@ main{
 } 
 
 .panelInfo{
-    padding: 0 15% 0 0;
-    /* position: absolute; */
+    padding: 0 15% 14% 0;
+    position: absolute;
     top: 10%;
     left: 15%;
 }
@@ -123,6 +122,10 @@ p.parrafoSangrado{
 
 }
 
+.parrafoSangrado2{
+    padding: 0;
+}
+
 a.email{
     color:rgb(65, 131, 185);
 }
@@ -133,9 +136,28 @@ a.email{
     align-items: center;
 }
 
-#elementoPrincipalRules{
-
-}
 #rulesIHFFieldRegulationsList{
-    padding: 0 0 0 18px;
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+#rulesIHFFieldRegulationsList li{
+    padding: 0 0 13px 0;
+}
+
+.rulesSubtitle{
+    padding: 2% 0 2% 0;
+}
+
+#rulesFieldsUsedByYoungAgeGroupsList{
+    padding: 0;
+}
+
+#rulesFieldsUsedByYoungAgeGroupsList li{
+    padding: 0;
+}
+
+.listAllPlay{
+    list-style-type: circle;
+    padding: 0 0 0 8%;
 }
