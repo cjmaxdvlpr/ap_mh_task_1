@@ -215,20 +215,23 @@ iframe{
     padding-left: 8px;
 }
 
-
-
-/* .iconoUbicacion:hover .location iframe{
-    display: block;
-    position: absolute;
-    right: 1%;
-    height: 25%;
-    outline: 1px solid black;
-} */
-
 .location:hover > iframe{
     display: block;
     position: absolute;
     right: 1%;
     height: 25%;
     outline: 1px solid black;
+}
+
+form{
+    padding: 2rem;
+    background-color: rgb(223, 222, 222);
+}
+
+fieldset{
+    padding: 1rem;
+}
+
+input{
+    margin: 0.5rem;
 }

@@ -30,7 +30,7 @@
                     </nav>
                 </div>
                 <div class="encabezado">
-                    <h2>Upcoming Events</h2>
+                    <h2>Registration Form</h2>
                 </div>
             </div>
         </header>
@@ -38,10 +38,89 @@
         <main>
 
             <div class="panelInfo">
-                <article>
-                    <h2><i>Registratio Form </i></h3>
-                    <p class="parrafoSangrado">MDSL Fundraiser</p>
-                </article>
+                <form action="./show_data.html" method="get">
+                    <fieldset>
+                        <label for="pFirstName">Player's First Name:</label>
+                        <input type="text" name="pFirstName" id="pFirstName" required>
+                        <label for="pLastName">Last Name:</label>
+                        <input type="text" name="pLastName" id="pLastName" required>
+                        <label for="streetAddres">Street Addres:</label>
+                        <input type="text" name="streetAddres" id="streetAddres" required>
+                        <label for="city">City:</label>
+                        <input type="text" name="city" id="city" required>
+                        <label for="zipCode">Zip Code:</label>
+                        <input type="number" name="zipCode" id="zipCode" required>
+                        <label for="birthDay">Birth Day:</label>
+                        <input type="date" name="birthDay" id="birthDay" required>
+                        <label for="genderFemale">Gender: Female</label>
+                        <input type="radio" name="gender" id="genderFemale" value="Female">
+                        <label for="genderMale">Male:</label>
+                        <input type="radio" name="gender" id="genderMale" value="Male">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Grade:</legend>
+                        <label for="preSchool">Pre-School:</label>
+                        <input type="checkbox" name="preSchool" id="preSchool" value="Pre-School">
+                        <label for="1st">1st:</label>
+                        <input type="checkbox" name="1st" id="1st" value="1st">
+                        <label for="2nd">2nd:</label>
+                        <input type="checkbox" name="2nd" id="2nd" value="2nd">
+                        <label for="3rd">3rd:</label>
+                        <input type="checkbox" name="3rd" id="3rd" value="3rd">
+                        <label for="4th">4th:</label>
+                        <input type="checkbox" name="4th" id="4th" value="4th">
+                        <label for="5th">5th:</label>
+                        <input type="checkbox" name="5th" id="5th" value="5th">
+                    </fieldset>
+                    <fieldset>
+                        <legend><b>Which elementary school do you live near?</b></legend>
+                        <label for="closestSchool"></label>
+                        <select name="closestSchool" id="closestSchool">
+                            <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                            <option value="Greenbay">Greenbay</option>
+                            <option value="Howard A Yeager">Howard A Yeager</option>
+                            <option value="Marjorie P Hart">Marjorie P Hart</option>
+                            <option value="North Elementary">North Elementary</option>
+                            <option value="South Elementary">South Elementary</option>
+                            <option value="" disabled selected>Select closest School</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <legend><b>What position(s) do you normally play? (Check all that aply)</b></legend>
+                        <label for="forward">Forward:</label>
+                        <input type="checkbox" name="forward" id="forward" value="Forward">
+                        <label for="defense">Defense:</label>
+                        <input type="checkbox" name="defense" id="defense" value="Defense">
+                        <label for="midfield">Midfield:</label>
+                        <input type="checkbox" name="midfield" id="midfield" value="Midfield">
+                        <label for="goalkeeper">Goalkeeper:</label>
+                        <input type="checkbox" name="goalkeeper" id="goalkeeper" value="Goalkeeper">
+                    </fieldset>
+                    <fieldset>
+                        <legend><b>Uniform Size</b></legend>
+                        <select name="uniformSize" id="uniformSize">
+                            <option value="youthSmall">Youth Small</option>
+                            <option value="youthMedium">Youth Medium</option>
+                            <option value="youthLarge">Youth Large</option>
+                            <option value="small">Small</option>
+                            <option value="medium">Medium</option>
+                            <option value="large">Large</option>
+                            <option value="extraLarge">Extra Large</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <legend><b>Permission to play</b></legend>
+                        <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant participation in the program and/or being transported to or from MDHL sponsored activities which transportation.
+                            By signing below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I read the cancellation policy and agree to its terms.</p>
+                        <label for="signature">Parent/Guardian Signature:</label>
+                        <input type="text" name="signature" id="signature" required>
+                        <label for="signatureDate">Date:</label>
+                        <input type="date" name="signatureDate" id="signatureDate" required>
+                    </fieldset>
+                    <input type="submit" name="Send Form">
+                    <input type="reset" name="Reset Form">
+
+                </form>
 
             </div>
             
