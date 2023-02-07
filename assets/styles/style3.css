@@ -200,3 +200,20 @@ a.email{
     text-align: left;
     vertical-align: middle;
 }
+
+iframe{
+    display: none;
+}
+
+.location{
+    color: blue;
+}
+
+.location:hover > iframe{
+    display: block;
+    position: absolute;
+    right: 1%;
+    /* bottom: -13%; */
+    height: 25%;
+    outline: 1px solid black;
+}
