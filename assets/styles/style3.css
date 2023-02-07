@@ -206,14 +206,29 @@ iframe{
 }
 
 .location{
-    color: blue;
+    display: flex;
+    justify-content: center;
+    color: rgb(65, 131, 185);;
 }
+
+.iconoUbicacion{
+    padding-left: 8px;
+}
+
+
+
+/* .iconoUbicacion:hover .location iframe{
+    display: block;
+    position: absolute;
+    right: 1%;
+    height: 25%;
+    outline: 1px solid black;
+} */
 
 .location:hover > iframe{
     display: block;
     position: absolute;
     right: 1%;
-    /* bottom: -13%; */
     height: 25%;
     outline: 1px solid black;
 }
