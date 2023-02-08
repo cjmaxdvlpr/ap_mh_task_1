@@ -103,6 +103,7 @@ main{
     vertical-align: middle;
     align-items: center;
     justify-content: center;
+    border-radius: 0.5em;
 }
 
 #elementoMenuActual{
@@ -115,12 +116,45 @@ main{
 .panelInfo{
     /* padding: 0 15% 14% 0; */
     padding-bottom: 5%;
-    position: absolute;
+    position: relative;
     /* top: 10%;
     left: 15%; */
     width: 80%;
 }
 
+.panelAbout{
+    position: absolute;
+    padding: 15px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid black;
+    z-index: 1;
+}
+
+.imagenAbout1{
+    position: absolute;
+    top: 155%;
+    left: -5%;
+    border: 1px solid grey;
+    /* z-index: 2; */
+}
+
+.imagenAbout2{
+    position: absolute;
+    top: -55%;
+    right: -5%;
+    border: 1px solid grey;
+    /* z-index: 2; */
+}
+
+.imagenAbout3{
+    position: absolute;
+    top: 410%;
+    right: 20%;
+    border: 1px solid grey;
+    /* z-index: 2; */
+    margin-bottom: 165px;
+}
 
 p{
     padding: 0 0 3% 0;    
